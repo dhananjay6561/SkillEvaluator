@@ -22,7 +22,7 @@ the [NVIDIA Verified Skills pipeline](https://github.com/NVIDIA/skills).
 
 ## Get started
 
-Three ways in, one CLI, same results.
+Three ways, one CLI, same results.
 
 <table><thead><tr>
 <th width="33%" align="left">1. Run the CLI directly</th>
@@ -86,7 +86,7 @@ See the [agent guide](https://docs.nvidia.com/skills/skillevaluator/agent-skill)
 
 ## Quickstart
 
-Both paths use bundled `text-analyzer`.
+Both use bundled `text-analyzer`.
 
 | Start here | Requires | First result |
 | --- | --- | --- |
@@ -138,7 +138,7 @@ uv run --python 3.13 --extra llm skillevaluator rubric-eval \
   -r cli -r json -o reports/first-build
 ```
 
-The command sends skill documentation to the model and saves feedback in
+It sends skill documentation to the model and saves feedback in
 `reports/first-build/skillevaluator-rubric.json`. No agent runtime or Docker is
 needed. Completed evaluations can still fail rubric thresholds.
 
@@ -213,7 +213,7 @@ Cite the paper and record the SkillEvaluator release or commit; see [CITATION.cf
 
 ## Documentation
 
-See [the documentation](https://docs.nvidia.com/skills/skillevaluator/) for
+See [documentation](https://docs.nvidia.com/skills/skillevaluator/) for
 setup, tier guides, reports, CI integration, CLI reference, and
 [performance dashboard](docs/reports.mdx#performance-dashboard).
 
@@ -251,7 +251,7 @@ issue.
 
 ## Releases
 
-Release changes are recorded in [CHANGELOG.md](CHANGELOG.md) and
+Release notes: [CHANGELOG.md](CHANGELOG.md) and
 [GitHub Releases](https://github.com/NVIDIA/SkillEvaluator/releases).
 
 ## Assess plugins
